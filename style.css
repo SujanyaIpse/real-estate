@@ -1,0 +1,524 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0px;
+    margin-top: 0px;
+    font-family: Roboto;
+}
+
+
+.navbar-edit {
+    background-color: #4d535e;
+}
+
+.brand-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.name-brand {
+    margin-top: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #19a397;
+}
+
+.brand-name-conatiner {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media(max-width:768px) {
+    .img {
+        height: 500px;
+    }
+
+    .service-card {
+        margin-bottom: 15px;
+    }
+
+    .keerthi-card {
+        margin-bottom: 15px;
+    }
+
+    .icon {
+        height: 80px;
+        width: 140px;
+    }
+
+    /*.keerthi-card {
+        width: 500px;
+    }
+
+    .sujanya-card {
+        width: 500px;
+    }
+
+    .service-card {
+        width: 300px;
+    }*/
+}
+
+@media(min-width:768px) {
+    .img {
+        height: 700px;
+    }
+
+    .employee-section {
+        padding: 20px;
+    }
+
+    .employee-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .service-type-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .service-type-section-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .icon {
+        height: 100px;
+        width: 200px;
+    }
+
+
+    /*.keerthi-card {
+        width: 500px;
+    }
+
+    .sujanya-card {
+        width: 500px;
+    }
+
+    .service-card {
+        width: 500px;
+    }*/
+}
+
+.tag {
+    background-color: #1a75bc;
+    opacity: 1;
+    padding: 10px;
+}
+
+.wcu-section {
+    background-color: #F3F7F6;
+}
+
+.wcu-section-heading {
+    color: #002c57;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.wcu-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.wcu-card {
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .08);
+}
+
+.wcu-card-image {
+    font-size: 70px;
+    color: #bf1e2e;
+    font-weight: bold;
+    height: 120px;
+    width: 160px;
+}
+
+.wcu-card-title {
+    color: #1973b9;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.wcu-card-description {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.img-founder {
+    height: 160px;
+    width: 400px;
+    border-radius: 48%;
+    margin-right: 20px;
+}
+
+.srinivas-founder {
+    background-color: #1874bb;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+    color: white;
+}
+
+.founder-name {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.naresh-founder {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+    background-color: #1874bb;
+    color: white;
+}
+
+.finder-hr {
+    border: 1px solid white;
+}
+
+.img-founder-2 {
+    height: 160px;
+    width: 300px;
+    border-radius: 48%;
+    margin-left: 20px;
+    order: 2;
+}
+
+.team-section {
+    padding: 20px;
+    background-color: white;
+}
+
+
+.image-employee {
+    height: 140px;
+    width: 140px;
+}
+
+.keerthi-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+    padding: 10px;
+    background-color: white;
+    border-bottom: 7px solid #1874bb;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .08);
+}
+
+.sujanya-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+    padding: 10px;
+    background-color: white;
+    border-bottom: 7px solid #1874bb;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .08);
+}
+
+.employee-name {
+    color: #f3a621;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.services-section {
+    background-color: #F3F7F6;
+}
+
+.services-img-section {
+    background-image: url("https://frpl.in/wp-content/uploads/2022/07/services-cover.png");
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.services-heading {
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 80px;
+    padding-top: 40px;
+}
+
+.hr-line {
+    border: solid 3px;
+    color: white;
+    width: 700px;
+    margin-left: -20%;
+}
+
+.service-tagline {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.teams-heading {
+    color: #002c57;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+
+.flat-img {
+    height: 60%;
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.services-description {
+    color: #f3a620;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.service-type-section {
+    padding: 30px;
+}
+
+.service-card {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+    background-color: white;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .08);
+}
+
+.villas-img {
+    height: 60%;
+    width: 100%;
+}
+
+.service-content {
+    padding: 10px;
+}
+
+.service-type-section-2 {
+    padding: 30px;
+}
+
+.listing-section {
+    background-color: #19a397;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+}
+
+.listing-heading {
+    color: white;
+}
+
+.email-instruction {
+    color: #f3a620;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.email-input {
+    border: #f3a620 2px solid;
+    width: 400px;
+    padding: 10px;
+}
+
+.listing-btn {
+    background-color: #f3a620;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+#contact-form {
+    margin-left: 20%;
+}
+
+#contact-container {
+    display: flex;
+}
+
+#my-details-container {
+    width: 35%;
+    margin-left: 6%;
+}
+
+#my-details-container h3 {
+    color: #f26822;
+    font-weight: 550;
+    font-size: 1.2rem;
+}
+
+#contact-form-container {
+    width: 50%;
+}
+
+#my-details-container p {
+    color: black;
+    font-size: 0.9rem;
+    display: contents;
+}
+
+.my-details-info-container {
+    margin-bottom: 20px;
+    color: #d9dcdd;
+}
+
+.my-details-info-container span {
+    margin-left: 0.4rem;
+    font-size: 0.95rem;
+}
+
+.my-details-info-container img {
+    color: black;
+}
+
+/*.my-details-icon {
+    width: 1rem;
+    height: 1rem;
+    vertical-align: bottom;
+    margin-right: 0.5rem;
+}*/
+
+
+#contact-form input,
+textarea {
+    max-width: 90%;
+    margin: 15px;
+    padding: 4px 10px;
+    border: 0px solid transparent;
+    border-bottom: 2px solid black;
+    color: black;
+    background: transparent;
+    width: 90%;
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
+
+
+
+#contact-form button[type="submit"] {
+    background: transparent;
+    /*#1a1a1a;*/
+    font-size: 0.95rem;
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 2px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: 0.8em 0.8em 0.78em;
+    text-transform: uppercase;
+    background-color: #f3a620;
+    border: none;
+}
+
+#contact-form button:hover {
+    background: #19a397;
+    color: white;
+}
+
+#contact .social-icons li a img {
+
+    font-size: 1.2rem;
+    margin: 40px 10px 10px;
+    padding: 10px 14px 20px 10px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 35px 50px 8px 0px;
+    font-weight: 100;
+    font-size: 0.9rem;
+    padding-left: 50px;
+    color: black;
+}
+
+.cont {
+    color: black;
+}
+
+.add {
+    color: black;
+}
+
+.add-heading {
+    margin-top: 10px;
+    color: #f4a620;
+}
+
+.get-in-touch-heading {
+    color: #f4a620;
+}
+
+.location {
+    color: red;
+}
+
+.social-media {
+    color: #1da1f2;
+    font-size: 30px;
+}
+
+.contact-section {
+    padding: 20px;
+    background-color: #F3F7F6;
+}
